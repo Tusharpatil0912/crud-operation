@@ -12,7 +12,7 @@ class studentController {
             })
             //saving document
             const result = await doc.save()
-            console.log(result);
+            // console.log(result);
             res.redirect('/')
         } catch (error) {
             console.log(error)
